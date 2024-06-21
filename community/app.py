@@ -47,6 +47,10 @@ def interop(request: Request):
 # SQLModel example   #
 ######################
 
+############################
+# CRUD operations posts    #
+############################
+
 @app.get("/posts")
 def get_posts():
     with Session(engine) as session:
@@ -83,6 +87,10 @@ def delete_post(post_id: int):
         session.commit()
         return {"message": "Post deleted successfully"}
     
+############################
+# CRUD operations comments #
+############################
+
 @app.get("/comments")
 def get_comments():
     with Session(engine) as session:
