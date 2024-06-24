@@ -15,7 +15,7 @@ This is a template for a FastApi application that can be deployed in IRIS as an 
 
 ```bash
 git clone
-cd iris-flask-template
+cd iris-fastapi-template
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
@@ -252,7 +252,7 @@ Everything is done using the sqlmodel ORM.
 
 ## Troubleshooting
 
-### How to run the Flask application in a standalone mode
+### How to run the FastAPI application in a standalone mode
 
 You can always run a standalone Flask application with the following command:
 
