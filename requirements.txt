@@ -12,3 +12,4 @@ iris-pex-embedded-python>=2.0.0
 
 ## for testing
 pytest
+uvicorn
