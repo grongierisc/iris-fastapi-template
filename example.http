@@ -1,0 +1,30 @@
+GET http://localhost:53795/fastapi/iris
+Accept: application/json
+
+### 
+POST http://localhost:53795/fastapi/interop
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "foo"
+}
+
+###
+GET http://localhost:53795/fastapi/posts
+Accept: application/json
+
+###
+GET http://localhost:53795/fastapi/posts/1
+Accept: application/json
+
+###
+POST http://localhost:53795/fastapi/posts
+Content-Type: application/json
+Accept: application/json
+
+{
+  "title": "foodhg",
+  "content": "bar"
+}
+
