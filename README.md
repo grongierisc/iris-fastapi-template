@@ -263,7 +263,7 @@ python3 /irisdev/app/community/app.py
 NB : You must be inside of the container to run this command.
 
 ```bash
-docker exec -it iris-flask-template bash
+docker exec -it iris-fastapi-template-iris-1 bash
 ```
 
 ### Restart the application in IRIS
