@@ -2,7 +2,7 @@ from fastapi import FastAPI, Request
 
 import iris
 
-from grongier.pex import Director
+from iop import Director
 
 # import models
 from models import Post, Comment, init_db
