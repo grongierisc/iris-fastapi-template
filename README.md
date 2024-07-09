@@ -50,7 +50,7 @@ from fastapi import FastAPI, Request
 
 import iris
 
-from grongier.pex import Director
+from iop import Director
 
 # import models
 from models import Post, Comment, init_db
@@ -65,7 +65,7 @@ engine = init_db(url)
 
 - `from fastapi import FastAPI, Request` - Import the FastAPI class and the Request class.
 - `import iris` - Import the IRIS module.
-- `from grongier.pex import Director`: Import the Director class to bind the flask app to the IRIS interoperability framework.
+- `from iop import Director`: Import the Director class to bind the flask app to the IRIS interoperability framework.
 - `from models import Post, Comment, init_db` - Import the models and the init_db function.
 - `from sqlmodel import Session,select` - Import the Session class and the select function from the sqlmodel module.
 - `app = FastAPI()` - Create a FastAPI application.
